@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="1024" viewBox="0 0 720 1024">
+  <defs>
+    <rect id="stripepink-a" width="720" height="1024"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="stripepink-b" fill="#fff">
+      <use xlink:href="#stripepink-a"/>
+    </mask>
+    <use fill="#FFF" xlink:href="#stripepink-a"/>
+    <g mask="url(#stripepink-b)" opacity=".182">
+      <g transform="rotate(-45 407.574 829.706)">
+        <rect width="1200" height="60" y="240" fill="#FFB6FF"/>
+        <rect width="1200" height="60" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="720" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="480" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="960" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="360" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="120" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="840" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="600" fill="#FFB6FF"/>
+        <rect width="1200" height="60" y="1080" fill="#FFB6FF"/>
+      </g>
+    </g>
+  </g>
+</svg>

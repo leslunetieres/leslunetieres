@@ -1,0 +1,26 @@
+.content {
+margin-top: 57px;
+height: calc(100vh - 57px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(../img/circlepink.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.text {
+  text-align: center;
+}
+
+.text p {
+  padding: 4px 0;
+}
+
+#googleMap {
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
+}

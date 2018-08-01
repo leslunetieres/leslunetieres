@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+  <div class="header_left">
+    <a href="index.html" class="logo_anchor">LES LUNETIERES</a>
+  </div>
+  <div class="header_middle">
+    <div class="header_menu">
+    <nav>
+      <a href="brands.html">Brands</a>
+      <a href="about.html">About</a>
+      <a href="#" class="selected">Contact</a>
+    </nav>
+  </div>
+  </div>
+
+  </div>
+  <div class="header_right">
+    <a target="_blank" href="https://www.instagram.com/leslunetieres/"><img src="svg/Instagram.svg" class="right_icon"></a>
+    <a href="#"><img src="svg/Facebook.svg" class="right_icon"></a>
+  </div>
+</header>
+
+<div class="content">
+  <div class="text">
+    <p>Les Lunetières</p>
+    <p>142 avenue Parmentier, 75011</p>
+    <p>01-47-00-82-45</p>
+    <p>leslunetieres75011@gmail.com</p>
+  </div>
+
+    <div id="googleMap"></div>
+
+
+</div>
+
+
+  </body>
+
+  <script>
+    function myMap() {
+      var myLatLng = {lat: 48.869493, lng: 2.371669};
+      var mapProp= {
+        center: myLatLng,
+        zoom:16,
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJxsyRFxV0rx-I6Aus0KEaW7529YhRoaM&callback=myMap"></script>
+
+</html>

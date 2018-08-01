@@ -1,0 +1,44 @@
+.content {
+margin-top: 57px;
+height: calc(100vh - 57px);
+    width: 100vw;
+    display: flex;
+}
+
+.fifty {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.fifty_red {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  background-image: url(../img/stripepink.svg);
+background-repeat: no-repeat;
+background-position: top;
+background-size: cover;
+
+}
+
+.fifty_red p {
+padding : 15px 0;
+}
+
+.picture_left{
+  height: auto;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
