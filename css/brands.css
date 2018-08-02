@@ -2,14 +2,13 @@
   margin-top: 57px;
   display: flex;
   padding: 40px 32px;
-  height: auto;
-  min-height: calc(100vh - 57px);
+
 }
 
 .grid_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 40px 20px;
     height: 100%;
     width: 100%;
@@ -25,4 +24,9 @@
 .brands {
   margin-left: 2px;
   font-size: 14px;
+}
+
+.waves {
+  width: 100%;
+  height: 100%;
 }
